@@ -46,20 +46,17 @@ a {
 }
 
 .nav-menu li {
-    /* position: static; */
     display: inline-block;
     left: 78.59%;
     right: 0%;
     top: 37.5%;
     bottom: 37.5%;
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 19px;
     line-height: 20px;
-    /* identical to box height, or 105% */
     letter-spacing: 2px;
-    /* Black/100% */
     color: #010101;
     /* Inside Auto Layout */
     flex: none;
@@ -108,16 +105,22 @@ a {
     color: white;
 }
 
-#hero {
-    /* position: absolute; */
+
+/* Para todas las secciones */
+
+.secciones {
     width: 100%;
     height: 86vh;
+    margin-bottom: 0;
+}
+
+#hero {
     margin-top: 14vh;
     background-size: cover;
     background-image: url(img/fondo.jpg);
 }
 
-#hero .hero-contenedor {
+.section-contenedor {
     display: flex;
     justify-content: left;
     align-items: center;
@@ -128,8 +131,10 @@ a {
     margin-top: 145px;
     margin-left: 64px;
     width: 440px;
-    height: 225px;
+    height: 275px;
     background: rgba(196, 196, 196, 0.75);
+    /* box-shadow: 4px 4px rgba(0, 0, 0, 0.5); */
+    /* filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 #petworld {
@@ -140,19 +145,16 @@ a {
 #slogan {
     display: block;
     margin-left: 39px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #btn-ver-mas {
     background-color: rgba(255, 122, 0);
-    /* position: absolute; */
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
-    /* width: 203px;
-    height: 42px; */
-    /* left: calc(50% - 203px/2 + 481px);
-    top: calc(50% - 42px/2); */
-    /* background: #FFFFFF; */
+    width: 157px;
+    height: 46px;
     border: none;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
@@ -168,4 +170,71 @@ a {
 #btn-ver-mas:hover {
     background: #40b840;
     color: white;
+}
+
+#img_conocenos {
+    width: 368px;
+    height: 59px;
+}
+
+
+/* Seccion Conocenos */
+
+#conocenos {
+    margin-top: 20px;
+}
+
+.columna1 {
+    float: left;
+}
+
+.columna2 {
+    float: right;
+}
+
+.subrayado {
+    margin-top: 10px;
+    width: 550px;
+    border: 5px solid #FF5C00;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#descripcion {
+    width: 391px;
+    height: 208px;
+    margin-top: 20px;
+    margin-left: 78px;
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#img_about_conocenos {
+    width: 337px;
+    height: 198px;
+    margin-left: 105px;
+    margin-bottom: 25px;
+    background: url("img/about_veterinaria.png");
+    background-size: cover;
+}
+
+
+/* Servicios */
+
+#img_servicios {
+    width: 590px;
+    height: 50px;
+}
+
+#lista_servicios {
+    margin-top: 24px;
+    width: 98vw;
+    text-align: center;
+}
+
+#lista_servicios img {
+    height: 420px;
 }
