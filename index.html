@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet World</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- <link rel="stylesheet" href="estilos_index.css"> -->
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navegacion" id="nav-menu-container">
+            <div id="contenedor_logo">
+                <img id="logo_img" src="img/logo.png" alt="logo">
+
+                <ul class="nav-menu">
+                    <li><a href="#hero">INICIO</a></li>
+                    <li><a href="#about">CONÓCENOS</a></li>
+                    <li><a href="#servicios">SERVICIOS</a></li>
+                    <li><a href="#contact">CONTÁCTANOS</a></li>
+                </ul>
+            </div>
+            <button id="btn_inisesion">INICIAR SESION</button>
+        </nav>
+
+    </header>
+
+    <section id="hero">
+        <div class="hero-contenedor">
+            <div id="hero-contenedor-text">
+                <img id="petworld" src="img/PetWorld.png" alt="PetWorld">
+                <!-- <h1 id="nombre_inicio">Pet World</h1> -->
+                <img id="slogan" src="img/slogan.png" alt="slogan">
+                <!-- <h3 id="slogan">No más perros callejeros en<br>país de perros pitucos.<br>Palabra de Firulais</h3> -->
+                <button id="btn-ver-mas">VER MÁS</button>
+                <!-- <a id="btn-ver-mas" href="#about" class="btn-get-started">Ver más</a> -->
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+        <section id="about">
+            <div class="fila-container">
+                <div class="columna1">
+                    <h2 class="title">Conócenos</h2>
+                    <p>
+                        Si ellos dedican su vida entera a querernos y a<br>convertirnos en mejores personas, ¿no les parece<br>justo darles lo mejor? Darles amor, salud y bienestar<br>debe ser para todos los que tenemos mascotas,<br>nuestra principal
+                        preocupación.
+                        <br><br>Es por eso que nace Pet World, para brindar atención<br>médica especializada, baño, peluquería y asesoría en<br>la elección del mejor alimento, juguetes y accesorios.<br>Para ayudarte a que hagas más feliz a tu mascota
+                        en
+                        <br>retribución de todo lo que ellos hacen por ti.
+                    </p>
+                    <!-- <h3>Habilidades</h3> -->
+                    <div id="skills">
+                        <img src="img/about_veterinaria.png" alt="about_veterinaria">
+
+                    </div>
+
+                </div>
+
+                <div class="columna2">
+                    <div id="img_programador">
+                        <img src="about_veterinaria.png" alt="about_veterinaria">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="proyectos">
+            <div class="fila-container">
+                <div class="columna1">
+                    <h2 class="title">Algunos de mis proyectos</h2>
+                    <div id="img-proyecto1">
+                        <img src="media/captura_tuvoto.png" alt="App Tu Voto">
+                    </div>
+
+                </div>
+
+                <div class="columna2">
+                    <h3 class="nombre-proyecto">Tu Voto</h3>
+                    <p id="proyecto1-descripcion">
+                        ¿No sabes por quién votar? ¡Para de sufrir! ¡Esta es la app que estabas buscando!<br>En TuVoto podrás encontrar toda la información precisa y necesaria para tomar una mejor decisión en estas elecciones.<br><br>App hecha en Android
+                        Studio para informar a la población sobre las propuestas, hoja de vida y denuncias, si es que tuvieran, de los candidatos a la Presidencia de la República del Perú.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="fila-container">
+                <h2>Contacto</h2>
+
+                <body class="contactBody">
+                    <form method="POST" class="form_contact">
+                        <input type="text" class="name entry" name="nombre" placeholder="Tu nombre" required>
+                        <input type="text" class="email entry" name="correo" placeholder="Email" required>
+                        <textarea class="message entry" placeholder="mensaje" required></textarea>
+                        <button class="submit entry" onclick="">Enviar</button>
+                    </form>
+                </body>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
