@@ -158,10 +158,6 @@ a {
     border: none;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: 2px;
     padding: 5px 10px;
     cursor: pointer;
     transition: 0.4s;
@@ -217,24 +213,58 @@ a {
     height: 198px;
     margin-left: 105px;
     margin-bottom: 25px;
-    background: url("img/about_veterinaria.png");
+    background: url("img/about_img.png");
     background-size: cover;
 }
 
 
 /* Servicios */
 
+
+/* 
+.servicios-contenedor {
+    width: 99vw;
+} */
+
 #img_servicios {
     width: 590px;
     height: 50px;
 }
 
+
+/* 
+#puntos {
+    position: absolute;
+    width: 98vw;
+}
+
+#poligono {
+    position: absolute;
+    width: 98vw;
+} */
+
 #lista_servicios {
     margin-top: 24px;
-    width: 98vw;
+    width: 98.5vw;
     text-align: center;
 }
 
 #lista_servicios img {
+    /* width: 98vw; */
+    width: 98.792vw;
     height: 420px;
+}
+
+#flecha {
+    background-color: rgba(255, 122, 0);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+#flecha img {
+    width: 15.5px;
+    height: 15.5px;
 }
